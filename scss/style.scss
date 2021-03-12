@@ -41,19 +41,15 @@ textarea {
 $black: #262626;
 $white: #ffffff;
 
-@mixin desc-text {
-  font: {
-    size: 17px;
-    weight: 300;
-  }
-  line-height: 27px;
+.title {
+  font-size: 90px;
+  font-weight: 700;
 }
 
-@mixin title {
-  font: {
-    size: 90px;
-    weight: 700;
-  }
+.desc {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
 }
 
 .btn {
