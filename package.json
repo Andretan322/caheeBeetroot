@@ -20,15 +20,14 @@
   "dependencies": {
     "autoprefixer": "^10.2.5",
     "clean-css-cli": "^5.2.1",
+    "node-modules": "^1.0.1",
     "postcss": "^8.2.7",
     "postcss-cli": "^8.3.1",
     "sass": "^1.32.8"
   },
-
   "browserslist": [
     "last 4 version"
   ],
-
   "bugs": {
     "url": "https://github.com/Andretan322/caheeBeetroot/issues"
   },
