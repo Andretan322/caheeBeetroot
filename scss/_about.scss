@@ -1,0 +1,35 @@
+.about {
+    background: #00B9B9;
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    &__img {
+        flex: 1 1 50%;
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__text {
+        flex: 1 1 50%;
+        padding: 0 0 0 90px;
+    }
+
+    &__title {
+        color: $white;
+        margin: 0 0 30px 0;
+    }
+
+    &__desc {
+        color: $white;
+        & p:not(:last-child) {
+            margin: 0 0 20px 0;
+        }
+    }
+}
