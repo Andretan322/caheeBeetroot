@@ -1,0 +1,72 @@
+.gallery {
+    background: #FFE92F;
+    padding: 100px 0;
+
+    &__text {
+        max-width: 580px;
+        margin: 0 auto;
+        text-align: center;
+
+        padding: 0 0 30px 0;
+    }
+
+    &__title {
+        margin: 0 0 30px 0;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        margin: 0 0 30px 0;
+
+        height: 550px;
+        width: 100%;
+    }
+
+    &__peach {
+        flex: 1 1 100%;
+        width: 70%;
+
+        & img {
+            width: auto;
+        }
+    }
+
+    &__blueberry, &__blackberry {
+        flex: 1 1 50%;
+        width: 30%;
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__blueberry {
+        padding: 0 0 15px 0;
+    }
+
+    &__blackberry {
+        padding: 15px 0 0 0;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__persimmon {
+        img {
+            width: 100%;
+        }
+    }
+
+    &__milk {
+        img {
+            width: 100%;
+        }
+    }
+}
