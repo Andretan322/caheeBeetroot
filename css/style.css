@@ -37,6 +37,17 @@ textarea {
   font-family: inherit;
 }
 
+.title {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
 .btn {
   width: 200px;
   height: 55px;
@@ -87,9 +98,6 @@ textarea {
   margin: 0 0 30px 0;
 }
 .hero__desc {
-  font-size: 17px;
-  font-weight: 300;
-  line-height: 27px;
   margin: 0 0 30px 0;
 }
 .hero__btn {
@@ -97,7 +105,38 @@ textarea {
 }
 .hero__scroll {
   position: absolute;
-  bottom: 20px;
+  bottom: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.about {
+  background: #00B9B9;
+}
+.about__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 0;
+}
+.about__img {
+  flex: 1 1 50%;
+}
+.about__img img {
+  width: 100%;
+  height: auto;
+}
+.about__text {
+  flex: 1 1 50%;
+  padding: 0 0 0 90px;
+}
+.about__title {
+  color: #ffffff;
+  margin: 0 0 30px 0;
+}
+.about__desc {
+  color: #ffffff;
+}
+.about__desc p:not(:last-child) {
+  margin: 0 0 20px 0;
 }
